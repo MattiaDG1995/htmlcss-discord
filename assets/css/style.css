@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}  
 
 .flex{
     display: flex;
@@ -47,15 +53,6 @@ button{
     font-size: 3rem;
 }
 
-.box{
-    
-    /* background-color: red; */
-}
-
-.middle{
-    
-    /* background-color: red; */
-}
 
 .cont-header{
     margin: auto;
@@ -78,9 +75,10 @@ button{
 
 .black{
     color: white;
-    background-color: black;
+    background-color: rgb(35, 39, 42);
     border: none;
 }
+
 
 main{
     margin-top: 100px;
@@ -123,28 +121,58 @@ section{
     width: 70%;
 }
 
+footer{
+    background-color: rgb(35, 39, 42);
+    color: white;
+}
+
 
 .container{
     margin: auto;
     width: 70%;
-
+    border-bottom: 1px solid black;
 }
 
 .column1{
     flex-basis: 30%;
-    
+    margin-right: 30px;
+    margin-top: 100px;
 }
 
 .column2{
     flex-basis: 68%;
-    
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.tit2{
+    margin-bottom: 10px;
+}
+.ita{
+    display: inline;
+}
+
+.bandiera{
+    width: 15px;
+} 
+
+.icons{
+    margin-top: 15px;
+}
+
+.icona{
+    margin-left: 10px;
+    color: white;
+}
+
+.twitter{
+    color: white;
 }
 
 ul{
     list-style: none;
     display: flex;
-    
-    
+    flex-direction: column;
 }
 
 
@@ -157,8 +185,17 @@ h4{
     margin-top: 15px;
 }
 
+.blue{
+    color: rgb(114, 137, 218);
+}
+
+.azzurro{
+    background-color: rgb(114, 137, 218);
+    color: white;
+}
+
 .end-footer{
     margin: auto;
     width: 70%;
-    background-color: blue;
+    margin-top: 20px;
 }
