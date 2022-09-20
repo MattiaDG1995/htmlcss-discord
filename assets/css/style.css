@@ -15,32 +15,72 @@
 .flex-direction{
     flex-direction:column
 }
+ .align-items-center{
+    align-items:center
+ }
 
+header{
+    color: white;
+    height: 500px;
+    background: center/cover url('../img/jumbo.png');
+}  
 
 nav{
     margin: auto;
     width: 70%;
-    background-color: green;
+    padding: 10px;
+}
+
+span{
+    margin: 0 20px 0 20px;
+} 
+
+button{
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    border: none;
+    padding: 5px 15px 5px 15px;
+}
+
+.title{
+    margin-bottom: 30px;
+    font-size: 3rem;
 }
 
 .box{
-    width: 150px;
-    height: 100px;
-    background-color: red;
+    
+    /* background-color: red; */
 }
 
 .middle{
-    width: 350px;
-    height: 100px;
-    background-color: red;
+    
+    /* background-color: red; */
 }
 
 .cont-header{
     margin: auto;
-    width: 50%;
-    background-color: orange;
-    width: 800px;
-    height: 650px;
+    margin-top: 80px;
+    width: 30%;
+    text-align: center;
+}
+
+.button{
+    border-radius: 30px;
+    border: 1px solid white;
+    padding: 10px 15px 10px 15px;
+    margin-top: 30px;
+}
+
+.white{
+    color: black;
+    background-color: white;
+}
+
+.black{
+    color: white;
+    background-color: black;
+    border: none;
 }
 
 section{
