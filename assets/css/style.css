@@ -37,7 +37,6 @@ span{
 
 button{
     color: black;
-    background-color: white;
     border-radius: 30px;
     border: none;
     padding: 5px 15px 5px 15px;
@@ -83,21 +82,40 @@ button{
     border: none;
 }
 
+main{
+    margin-top: 100px;
+}
+
 section{
-    background-color: darkgray;
     margin-bottom: 20px;
+    margin-bottom: 200px;
 }
 
 .cont-main{
     margin: auto;
-    width: 70%;
+    width: 55%;
 }
 
 
-.img, .text{
-    width: 650px;
-    height: 450px;
-    background-color: red;
+.text{
+    margin-top: 35px;
+    font-size: 1.5rem;
+    margin-left: 50px;
+}
+
+.par{
+    margin-top: 20px;
+}
+
+.end-cont{
+    text-align: center;
+}
+
+.bot{
+    border-radius: 30px;
+    background-color: lightskyblue;
+    padding: 10px 15px 10px 15px;
+    margin-top: 30px;
 }
 
 .end-main{
@@ -105,16 +123,6 @@ section{
     width: 70%;
 }
 
-.riga{
-    width: 1335px;
-    height: 450px;
-    background-color: yellowgreen;
-    margin-bottom: 10px;
-}
-
-.seconda{
-    background-color: orange;
-}
 
 .container{
     margin: auto;
